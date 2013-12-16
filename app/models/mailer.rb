@@ -5,13 +5,13 @@ module Brisk
     module Mailer extend self
       def user_invite!(invite)
         Mail.deliver do
-          from    'Monocle <alex@example.com>'
+          from    'Habari Moto <ray@sparkpl.ug>'
           to      invite.email
-          subject "An invitation to join Monocle from #{invite.user_name}."
+          subject "An invitation to join Habari Moto from #{invite.user_name}."
           body    <<-EOF.dedent
             Hi there,
 
-            #{invite.user_name} has invited you to join Monocle, an upbeat community.
+            #{invite.user_name} has invited you to join Habari Moto, an upbeat news sharing and link aggregation community for the East African region.
 
             To learn more, and claim your invitation, visit:
 
@@ -25,13 +25,13 @@ module Brisk
 
       def user_activate!(user)
         Mail.deliver do
-          from    'Monocle <alex@example.com>'
+          from    'Habari Moto <ray@sparkpl.ug>'
           to      user.email
-          subject 'Welcome to Monocle!'
+          subject 'Welcome to Habari Moto!'
           body    <<-EOF.dedent
             Hi there,
 
-            Good news! #{user.parent_name || 'Admin'} has activated your Monocle account.
+            Good news! #{user.parent_name || 'Admin'} has activated your Habari Moto account.
 
             Thanks,
             Admin
@@ -41,9 +41,9 @@ module Brisk
 
       def feedback!(text, email = nil)
         Mail.deliver do
-          from    'Monocle <system@example.com>'
+          from    'Habari Moto <ray@sparkpl.ug>'
           to      'alex@example.com'
-          subject 'Monocle Feedback'
+          subject 'Habari Moto Feedback'
           reply_to email if email.present?
           body     text
 

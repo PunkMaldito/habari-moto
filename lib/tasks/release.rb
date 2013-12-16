@@ -16,7 +16,7 @@ namespace :staging do
 
   namespace :release do
     task :migrate do
-      `heroku run 'rake db:migrate' --app monocle-staging`
+      `heroku run 'rake db:migrate' --app habarimoto-staging`
     end
   end
 end
