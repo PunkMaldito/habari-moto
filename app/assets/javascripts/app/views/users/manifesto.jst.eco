@@ -1,0 +1,34 @@
+<header>
+  <h2>Habari Moto's Manifesto</h2>
+</header>
+
+<article>
+  <% if @user: %>
+    <p>Welcome <strong><%= @user.get('name') %></strong>,</p>
+  <% end %>
+
+  <p>
+    Habari Moto is an upbeat and positive news-sharing community with a focus on regional East African news, and quite frankly anything that appeals to the inquisitive mind.
+  </p>
+
+  <p>
+    If someone has invited you to join Habari Moto, it means they respect your opinion
+    and want to hear your input. Likewise, if you're issuing an invitation,
+    bear in mind that the people you invite, and their contributions, reflect
+    on you.
+  </p>
+
+  <p>
+    Comments should only add to the discussion, and please limit any criticism
+    to the constructive variety.
+  </p>
+
+  <p>
+    Habari Moto is a place for like-minded individuals to revel in facts and information,
+    encourage innovation, and ultimately better each other. East Africa is ours for the taking.
+  </p>
+</article>
+
+<footer>
+  <button class="btn close">Get started</button>
+</footer>

@@ -1,0 +1,17 @@
+<header>
+  <h2>Welcome to the club</h2>
+</header>
+
+<article>
+  <p>
+    You've been invited by <strong><%= @invite.get('user_name') %></strong> to join Habari Moto,
+    a news-sharing network for East Africa. You are special and we looking forward to sharing and discussing regional news that matters.
+    The next step is linking your Twitter account.
+  </p>
+
+  <p>Happy Sharing.</p>
+
+  <footer>
+    <a href="/auth/twitter" class="twitter">Connect with Twitter</a>
+  </footer>
+</article>
