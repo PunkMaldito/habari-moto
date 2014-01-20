@@ -1,1 +1,1 @@
-web: bundle exec unicorn -c ./config/unicorn.rb
+web: bundle exec thin start -R config.ru -e $RACK_ENV -p $PORT
