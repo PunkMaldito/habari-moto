@@ -29,7 +29,8 @@ module Brisk
     configure do
       set :database, lambda {
         ENV['DATABASE_URL'] ||
-          "postgres://localhost:5432/monocle_#{environment}"
+          # "postgres://localhost:5432/monocle_#{environment}"
+          "postgres://ksmrjyvoicrxji:M5UvEx92-Jz9X26d_krMjjJN7I@ec2-54-225-102-235.compute-1.amazonaws.com:5432/depvagoj4h0kcg"
       }
     end
 
