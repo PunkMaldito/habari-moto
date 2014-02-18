@@ -2,8 +2,8 @@ xml.instruct! :xml, :version => "1.0"
 xml.rss :version => "2.0" do
   xml.channel do
     xml.title "Habari Moto News"
-    xml.description "Interesting news at your finger tips!"
-    xml.link "http://sparkpl.ug/"
+    xml.description "East African news at your finger tips!"
+    xml.link "http://habari-moto.herokuapp.com/feed"
 
     @posts.each do |post|
       xml.item do

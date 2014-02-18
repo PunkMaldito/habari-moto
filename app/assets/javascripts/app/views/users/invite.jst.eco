@@ -19,7 +19,7 @@
     </p>
 
     <p>
-      Enter an email below, and we'll send them an entry pass to Habari Moto.
+      Enter an email below, and we'll send them an entry pass to Habari Moto. Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a>
     </p>
 
     <form>
@@ -30,9 +30,6 @@
 
         <input type="text" name="twitter"
           placeholder="@twitter">
-
-        <input type="text" name="github"
-          placeholder="@github">
       <% else: %>
         <input type="email" name="email"
           placeholder="test@example.com"
@@ -46,7 +43,7 @@
     <p>
       Sorry, you don't have any invites right now.
       However, we do issue more periodically -
-      check back soon!
+      check back soon! Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a>
     </p>
   <% end %>
 </article>

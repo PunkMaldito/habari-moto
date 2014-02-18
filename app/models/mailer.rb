@@ -15,7 +15,7 @@ module Brisk
 
             To learn more, and claim your invitation, visit:
 
-            \thttp://example.com/claim/#{invite.code}
+            \thttp://habari-moto.herokuapp.com//claim/#{invite.code}
 
             Thanks,
             Admin
