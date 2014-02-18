@@ -44,3 +44,5 @@ From there execute:
     user.save
 
 Now you will be able to post, comment and invite users.
+
+Brought to you by your friends at [Sparkplug](http://sparkpl.ug)
