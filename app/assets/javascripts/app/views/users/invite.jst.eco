@@ -19,7 +19,7 @@
     </p>
 
     <p>
-      Enter an email below, and we'll send them an entry pass to Habari Moto. Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a>
+      Enter an email below, and we'll send them an entry pass to Habari Moto.</p> <p>Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a>
     </p>
 
     <form>
@@ -43,7 +43,8 @@
     <p>
       Sorry, you don't have any invites right now.
       However, we do issue more periodically -
-      check back soon! Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a>
+      check back soon!
     </p>
+    <p>Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a></p>
   <% end %>
 </article>

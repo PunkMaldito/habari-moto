@@ -5,10 +5,10 @@
 <article>
   <p>
     You've been invited by <strong><%= @invite.get('user_name') %></strong> to join Habari Moto,
-    a news-sharing network for East Africa. You are special and we looking forward to sharing and discussing regional news that matters. The next step is linking your Twitter account.
+    a news-sharing network for East Africa. You are special and we looking forward to sharing and discussing regional news that matters. The next step is linking your Twitter account.Happy Sharing!
   </p>
 
-  <p>Happy Sharing. Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a></p>
+<p>Your friends at <a href="http://sparkpl.ug" target="_blank">Sparkplug</a></p>
 
   <footer>
     <a href="/auth/twitter" class="twitter">Connect with Twitter</a>
