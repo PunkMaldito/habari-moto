@@ -1,0 +1,26 @@
+<header>
+  <h2>Hello there!</h2>
+</header>
+
+<article>
+  <p>
+  Habari Moto is in early beta, so posting content and upvoting is not yet available for all as features are only being added thanks to feedback from current users.
+  </p>
+
+  <p>
+  We're adding more people every day, and if you add your email below, you will receive an invite soon!
+  </p>
+
+  <p class="thanks">
+    Thank you! We'll be in touch shortly.
+  </p>
+
+  <form>
+    <label>
+      <input type='email' name='email' placeholder='okello@example.com'
+      value="<%= @user.get('email') %>" autofocus required>
+
+      <button class="btn" type="submit">Apply</button>
+    </label>
+  </form>
+</article>
